@@ -16,11 +16,12 @@
     },
     "dependencies": {
         "@aws-sdk/client-s3": "^3.345.0",
+        "@aws-sdk/lib-storage": "^3.345.0",
+        "@payloadcms/plugin-cloud-storage": "^1.0.14",
         "@payloadcms/plugin-nested-docs": "^1.0.4",
         "dotenv": "^8.2.0",
         "express": "^4.17.1",
         "payload": "^1.8.3",
-        "payload-s3-upload": "^2.1.1",
         "uuid": "^9.0.0"
     },
     "devDependencies": {
